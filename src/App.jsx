@@ -83,7 +83,7 @@ export default function App() {
         <p className="mb-4">
           Let’s work together! Email me at{" "}
           <a href="mailto:your@email.com" className="text-blue-600 hover:underline">
-            your@email.com
+            agyeirich.designs@gmail.com
           </a>
         </p>
         <div className="flex justify-center gap-6">
