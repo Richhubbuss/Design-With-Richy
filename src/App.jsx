@@ -24,15 +24,16 @@ export default function App() {
 
       {/* Hero */}
       <section className="h-screen flex flex-col justify-center items-center text-center px-6">
-        <h2 className="text-4xl sm:text-6xl font-bold mb-4">Hi, I'm Richmond 👋</h2>
+        <h2 className="text-4xl sm:text-6xl font-bold mb-4">Hi, I'm Agyei Richmond 👋</h2>
         <p className="text-lg sm:text-2xl mb-6 max-w-xl">
-          A passionate developer building modern and responsive web applications.
+          A creative flyer designer turning ideas into stunning visuals that grab
+          attention and tell powerful stories.
         </p>
         <a
           href="#projects"
           className="bg-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-blue-700 transition"
         >
-          View My Work
+          View My Designs
         </a>
       </section>
 
@@ -40,8 +41,9 @@ export default function App() {
       <section id="about" className="py-20 px-6 max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <p>
-          I’m a self-taught developer who enjoys solving problems, designing clean
-          user interfaces, and learning new technologies.
+          I’m a passionate flyer and graphic designer with an eye for detail and a love
+          for creativity. My goal is to design flyers that don’t just look good but also
+          deliver results — whether it’s for events, businesses, or personal branding.
         </p>
       </section>
 
@@ -49,18 +51,50 @@ export default function App() {
       <section id="skills" className="py-20 bg-gray-100 dark:bg-gray-800 px-6">
         <h2 className="text-3xl font-bold text-center mb-10">Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
-          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">React</div>
-          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">TailwindCSS</div>
-          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">JavaScript</div>
-          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">Git</div>
+          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">Photoshop</div>
+          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">Illustrator</div>
+          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">Canva</div>
+          <div className="p-4 bg-white dark:bg-gray-700 rounded-xl shadow">Creative Direction</div>
         </div>
       </section>
 
       {/* Projects */}
       <section id="projects" className="py-20 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center">My Flyer Designs</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="p-6 bg-white dark:bg-gray-700 rounded-xl shadow hover:scale-105 transition">
+            <h3 className="font-bold mb-2">Event Flyer</h3>
+            <p>A bold and stylish flyer created for a music concert.</p>
+          </div>
+          <div className="p-6 bg-white dark:bg-gray-700 rounded-xl shadow hover:scale-105 transition">
+            <h3 className="font-bold mb-2">Business Promo</h3>
+            <p>Professional flyer designed to promote a local business.</p>
+          </div>
+          <div className="p-6 bg-white dark:bg-gray-700 rounded-xl shadow hover:scale-105 transition">
+            <h3 className="font-bold mb-2">Church Program</h3>
+            <p>Creative and inspiring flyer for a church event.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section id="contact" className="py-20 bg-gray-100 dark:bg-gray-800 text-center">
+        <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
+        <p className="mb-4">
+          Let’s work together! Email me at{" "}
+          <a href="mailto:your@email.com" className="text-blue-600 hover:underline">
+            your@email.com
+          </a>
+        </p>
+        <div className="flex justify-center gap-6">
+          <a href="#" className="hover:text-blue-600">Instagram</a>
+          <a href="#" className="hover:text-blue-600">Behance</a>
+          <a href="#" className="hover:text-blue-600">Facebook</a>
+        </div>
+      </section>
+    </div>
+  );
+}          <div className="p-6 bg-white dark:bg-gray-700 rounded-xl shadow hover:scale-105 transition">
             <h3 className="font-bold mb-2">Portfolio Website</h3>
             <p>My personal portfolio built with React & TailwindCSS.</p>
           </div>
@@ -77,7 +111,7 @@ export default function App() {
         <p className="mb-4">
           Email me at{" "}
           <a href="mailto:your@email.com" className="text-blue-600 hover:underline">
-            your@email.com
+            agyeirich.designs@gmail.com
           </a>
         </p>
         <div className="flex justify-center gap-6">
